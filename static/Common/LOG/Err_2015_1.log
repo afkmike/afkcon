@@ -1,0 +1,51 @@
+1/31/2015 1:52:50 PM | 
+1/31/2015 1:52:50 PM | 
+Message : Object reference not set to an instance of an object.
+1/31/2015 1:52:50 PM | 
+LastTrace : openElement.Forms.Main.FrmMain.WndProc(Message& m)
+1/31/2015 1:52:50 PM | 
+Params : 
+1/31/2015 1:52:50 PM | 
+MethodeName : Void FormActivated(System.Object, System.EventArgs)
+1/31/2015 1:52:50 PM | 
+Stamp : 1/31/2015 1:52:50 PM
+1/31/2015 1:52:50 PM | 
+OSFullName : Microsoft Windows 7 Professional 
+1/31/2015 1:52:50 PM | 
+AvailablePhysicalMemory : 5.77 Go 
+1/31/2015 1:52:50 PM | 
+TotalPhysicalMemory : 7.95 Go 
+1/31/2015 1:52:50 PM | 
+AvailableVirtualMemory : 1.31 Go 
+1/31/2015 1:52:50 PM | 
+TotalVirtualMemory : 2 Go 
+1/31/2015 1:52:50 PM | 
+WorkingSet : 318.01 Mo 
+1/31/2015 1:52:50 PM | 
+PagedMemorySize : 323.5 Mo 
+1/31/2015 1:52:50 PM | 
+TotalMemory : 27.79 Mo 
+1/31/2015 1:52:50 PM | 
+
+1/31/2015 1:52:50 PM | 
+ExTrace : 
+1/31/2015 1:52:50 PM | 
+at openElement.Forms.Main.FrmMain.WndProc(Message& m) in openElement\Form\Main\FrmMain.vb:line 24
+1/31/2015 1:52:50 PM | 
+
+1/31/2015 1:52:50 PM | 
+OETrace : 
+1/31/2015 1:52:50 PM | 
+at openElement.Forms.Main.FrmMain.WndProc(Message& m) in openElement\Form\Main\FrmMain.vb:line 26
+1/31/2015 1:52:50 PM | 
+at openElement.BaseForm.CurrentFrmPageEditFocus() in openElement\Tools\ToolsFrm.vb:line 39
+1/31/2015 1:52:50 PM | 
+at openElement.Forms.Main.FrmMain.DockManager_ActivePanelChanged(Object sender, ActivePanelChangedEventArgs e) in openElement\Form\Main\FrmMain.vb:line 804
+1/31/2015 1:52:50 PM | 
+at openElement.Forms.Main.FrmMain.WndProc(Message& m) in openElement\Form\Main\FrmMain.vb:line 24
+1/31/2015 1:52:50 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in 17d14f5c-a337-4978-8281-53493378c1071.vb:line 82
+1/31/2015 1:52:50 PM | 
+
+1/31/2015 1:52:50 PM | 
+------------------

@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="FtpData" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="FtpData">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LocalPath" type="xs:string" />
+                <xs:element name="Index" type="xs:int" minOccurs="0" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="Size" type="xs:int" minOccurs="0" />
+                <xs:element name="Command" type="xs:string" minOccurs="0" />
+                <xs:element name="Progress" type="xs:int" minOccurs="0" />
+                <xs:element name="Retry" type="xs:int" minOccurs="0" />
+                <xs:element name="Success" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//FtpData" />
+        <xs:field xpath="LocalPath" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)_Backup\Backup\.htaccess</LocalPath>
+    <Index>1</Index>
+    <Path>Backup/.htaccess</Path>
+    <Size>33</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\.htaccess</LocalPath>
+    <Index>2</Index>
+    <Path>.htaccess</Path>
+    <Size>0</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\home.css</LocalPath>
+    <Index>3</Index>
+    <Path>home.css</Path>
+    <Size>1258</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)_Backup\Backup\home.dat</LocalPath>
+    <Index>4</Index>
+    <Path>Backup/home.dat</Path>
+    <Size>72817</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\home.htm</LocalPath>
+    <Index>5</Index>
+    <Path>home.htm</Path>
+    <Size>3287</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\index.css</LocalPath>
+    <Index>6</Index>
+    <Path>index.css</Path>
+    <Size>2945</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)_Backup\Backup\index.dat</LocalPath>
+    <Index>7</Index>
+    <Path>Backup/index.dat</Path>
+    <Size>129137</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\index.htm</LocalPath>
+    <Index>8</Index>
+    <Path>index.htm</Path>
+    <Size>5523</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\sitemap.xml</LocalPath>
+    <Index>9</Index>
+    <Path>sitemap.xml</Path>
+    <Size>986</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)\robots.txt</LocalPath>
+    <Index>10</Index>
+    <Path>robots.txt</Path>
+    <Size>57</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)_Backup\Backup\Templates\Controls\WEHrLign_ee610554.OESkin</LocalPath>
+    <Index>11</Index>
+    <Path>Backup/Templates/Controls/WEHrLign_ee610554.OESkin</Path>
+    <Size>26928</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)_Backup\Backup\Templates\Controls\WEHrVertival_667b296e.OESkin</LocalPath>
+    <Index>12</Index>
+    <Path>Backup/Templates/Controls/WEHrVertival_667b296e.OESkin</Path>
+    <Size>26656</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+  <FtpData>
+    <LocalPath>C:\Users\nubspnkr\AppData\Local\Temp\openElementFtp\My Website (2)_Backup\Backup\My Website (2).ope</LocalPath>
+    <Index>13</Index>
+    <Path>Backup/My Website (2).ope</Path>
+    <Size>3576</Size>
+    <Command>Add</Command>
+    <Progress>100</Progress>
+    <Retry>1</Retry>
+    <Success>true</Success>
+  </FtpData>
+</NewDataSet>

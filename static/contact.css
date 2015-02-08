@@ -1,0 +1,26 @@
+.OESK_XBody_Default{width:900px;margin:8px auto 15px}
+.OESK_XBody_Default .OESZ_XBodyContent{width:100%;height:550px}
+.OESK_XBody_Default .OESZ_XBodyFooter{width:100%;height:50px}
+.OESK_WEPanel_Default{width:350px;height:150px}
+.OESK_WEText_Default{width:350px;height:80px}
+.OESK_WETextBox2_Default{width:275px;height:auto;padding:0 4px 0 0}
+.OESK_WETextBox2_Default .OESZ_TextBoxError{width:16px;height:16px;background-image:url(WEFiles/Image/Skin/26c70838.png);margin:0 0 0 4px}
+.OESK_WETextBox2_Default .OESZ_Validator{width:16px;height:16px;background-repeat:no-repeat;background-position:center center;background-image:url(WEFiles/Image/Skin/58294202.png);margin:0 0 0 4px}
+.OESK_WETextArea2_Default{width:275px;height:91px;padding:0 4px 4px 0}
+.OESK_WETextArea2_Default .OESZ_TextArea{width:100%;height:100%}
+.OESK_WETextArea2_Default .OESZ_TextAreaError{background-image:url(WEFiles/Image/Skin/cbb1ae94.png)}
+.OESK_WETextArea2_Default .OESZ_Validator{width:16px;height:16px;background-repeat:no-repeat;background-image:url(WEFiles/Image/Skin/966687aa.png);margin:0 0 0 4px}
+.OESK_WEButton_Default{width:120px}
+#XBody{height:auto;background-repeat:no-repeat}
+#WEa49e348dc3{position:absolute;left:90px;top:20px;width:390px;height:500px;background-color:#E0E0E0;opacity:.85;filter:alpha(Opacity=85)}
+#WE4cd8b67ec2{position:absolute;left:20px;top:10px;width:350px;height:auto;text-align:center}
+#WE08bf317410{position:absolute;left:20px;top:160px;width:346px;height:auto}
+#WE4b963c4fed{position:absolute;left:20px;top:240px;width:346px;height:auto}
+#WE43b8a9bcc3{position:absolute;left:20px;top:200px;width:346px;height:auto}
+#WE67c8479785{position:absolute;left:20px;top:280px;width:346px;height:156px}
+#WE92a558e554{position:absolute;left:100px;top:456px;width:200px;height:auto}
+#WEdeb7ff40af{position:absolute;left:10px;top:100px;width:370px;height:auto;text-align:center}
+#WE4a680bf9e9{position:absolute;left:0;top:0;width:640px;height:480px;min-height:100%;min-width:100%}
+#WEabed97c57c{position:absolute;left:190px;top:470px}
+.OESK_WETextBox2_Default .OESZ_TextBox,.OESK_WEButton_Default .OESZ_Button{width:100%}
+

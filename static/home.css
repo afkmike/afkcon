@@ -1,0 +1,37 @@
+.OESK_XBody_Default{width:900px;margin:8px auto 15px}
+.OESK_XBody_Default .OESZ_XBodyContent{width:100%;height:550px}
+.OESK_XBody_Default .OESZ_XBodyFooter{width:100%;height:50px}
+.OESK_WELabel_3a7ab82f{width:474px;color:#FFF;font-style:normal;font-variant:small-caps;font-family:Arial, Helvetica, sans-serif;letter-spacing:2px}
+.OESK_WEHrLign_ee610554{min-height:15px;min-width:350px}
+.OESK_WEHrLign_ee610554 > .OESZ_DivContent{top:7px;background-color:Transparent;min-height:15px}
+.OESK_WEHrLign_ee610554 .OESZ_Deco1{left:0;width:319px;height:2px;background-repeat:no-repeat;background-image:url(WEFiles/Image/Skin/fa175883.png)}
+.OESK_WEHrLign_ee610554 .OESZ_Deco2{left:319px;right:68px;height:2px;background-repeat:repeat-x;background-image:url(WEFiles/Image/Skin/8b4d5c33.png)}
+.OESK_WEHrLign_ee610554 .OESZ_Deco3{right:0;width:68px;height:2px;background-repeat:no-repeat;min-width:68px;background-image:url(WEFiles/Image/Skin/9017d2a1.png)}
+.OESK_WEText_55967780{width:175px;height:126px;color:#262626;font-size:12px;line-height:18px;font-family:Arial, Helvetica, sans-serif;letter-spacing:1px;text-align:justify}
+.OESK_WEPanel_Default{width:350px;height:150px}
+.OESK_WETextBox2_Default{width:275px;height:auto;padding:0 4px 0 0}
+.OESK_WETextBox2_Default .OESZ_TextBoxError{width:16px;height:16px;background-image:url(WEFiles/Image/Skin/26c70838.png);margin:0 0 0 4px}
+.OESK_WETextBox2_Default .OESZ_Validator{width:16px;height:16px;background-repeat:no-repeat;background-position:center center;background-image:url(WEFiles/Image/Skin/58294202.png);margin:0 0 0 4px}
+.OESK_WETextArea2_Default{width:275px;height:91px;padding:0 4px 4px 0}
+.OESK_WETextArea2_Default .OESZ_TextArea{width:100%;height:100%}
+.OESK_WETextArea2_Default .OESZ_TextAreaError{background-image:url(WEFiles/Image/Skin/cbb1ae94.png)}
+.OESK_WETextArea2_Default .OESZ_Validator{width:16px;height:16px;background-repeat:no-repeat;background-image:url(WEFiles/Image/Skin/966687aa.png);margin:0 0 0 4px}
+.OESK_WEButton_Default{width:120px}
+.OESK_WEText_Default{width:350px;height:80px}
+#XBody{height:auto}
+#WEef586fbd6c{position:absolute;left:20px;top:70px;width:auto;height:auto}
+#WEef586fbd6c .OESZ_Text{color:Gray;font-size:35px}
+#WEb82e51e831{position:absolute;left:10px;top:30px;width:880px;height:auto}
+#WEdff20a6e91{position:absolute;left:20px;top:120px;width:500px;height:auto}
+#WE3b645705ba{position:absolute;left:10px;top:100px;width:520px;height:auto}
+#WEa0d37ac57d{position:absolute;left:540px;top:70px;width:360px;height:380px;background-color:#E0E0E0;opacity:.85;filter:alpha(Opacity=85)}
+#WE7655f28400{position:absolute;left:20px;top:70px;width:316px;height:auto}
+#WE92a8a17357{position:absolute;left:20px;top:130px;width:316px;height:auto}
+#WE1c4843184a{position:absolute;left:20px;top:100px;width:316px;height:auto}
+#WE2b15a37be7{position:absolute;left:20px;top:170px;width:316px;height:156px}
+#WEa0e615a0ca{position:absolute;left:70px;top:340px;width:200px;height:auto}
+#WE31220749c6{position:absolute;left:0;top:10px;width:350px;height:auto;text-align:center}
+#WE860f96625a{position:absolute;left:30px;top:40px;width:auto;height:auto}
+.OESK_WETextBox2_Default .OESZ_TextBox,.OESK_WEButton_Default .OESZ_Button{width:100%}
+#WE801409fde6,#WEeefc1631e6{height:auto;left:0;position:absolute;top:0;width:auto}
+

@@ -1,0 +1,101 @@
+﻿
+
+#STARTQ (Make DB table pages)
+CREATE TABLE IF NOT EXISTS pages (
+ID			INTEGER PRIMARY KEY AUTOINCREMENT ,
+##OE page serial
+Serial		CHARACTER(36) NOT NULL,
+##OE page culture
+Culture		CHARACTER(5) NOT NULL,
+##Score résults (1 to 100)
+Score		INTEGER NOT NULL DEFAULT 0,
+##User disable this page results
+Disabled    INTEGER NOT NULL DEFAULT 0
+);
+##INDEX
+CREATE INDEX IF NOT EXISTS Index_Serial ON pages (Serial ASC);
+#ENDQ
+
+#STARTQ (Make DB table results)
+CREATE TABLE IF NOT EXISTS results (
+ID				INTEGER PRIMARY KEY AUTOINCREMENT,
+##Parent page ID
+IDPage			INTEGER NOT NULL,
+##Internal serial
+Serial		    CHARACTER(36) NOT NULL,
+##Token group (value1,value2,etc)
+Token	    	TEXT NOT NULL,
+##Score résults (1 to 100)
+Score			INTEGER NOT NULL DEFAULT 0, 
+##Easy (1 to 10), Medium (11 to 20), 3 Hard (21 to 30)
+Difficulty		INTEGER  NOT NULL,
+##Error (1), Warning (2), Tip (3)
+Icone   		INTEGER NOT NULL,
+##User hide this result (boolean)
+Hidden  		INTEGER NOT NULL DEFAULT 0,
+##User disable this result (boolean)
+Disabled        INTEGER NOT NULL DEFAULT 0,
+##Result title
+Title			TEXT NOT NULL,
+##Result description
+Description		TEXT NOT NULL,
+##Internal version
+Version			INTEGER NOT NULL,
+##Json various
+Xtra			TEXT NULL DEFAULT NULL,
+##CONSTRAINT
+CONSTRAINT Const_Serial UNIQUE (Serial)
+);
+##INDEX
+CREATE INDEX IF NOT EXISTS Index_Serial ON results (Serial ASC);
+CREATE INDEX IF NOT EXISTS Index_IDPage ON results (IDPage ASC);
+#ENDQ
+
+
+#STARTQ (Make DB table results_items)
+CREATE TABLE IF NOT EXISTS results_items (
+ID			INTEGER PRIMARY KEY AUTOINCREMENT,
+##Parent result ID
+IDResult	INTEGER NOT NULL,
+##Internal serial
+Serial		CHARACTER(36) NOT NULL,
+##Token group (value1,value2,etc)
+Token   	INTEGER NOT NULL,
+##Score résults (1 to 100)
+Score		INTEGER NOT NULL DEFAULT 0,
+##Weight of result
+Weight		INTEGER NOT NULL, 
+##User hide this result
+Hidden  	INTEGER NOT NULL DEFAULT 0,
+##OK (1), To be corrected (2), Ignore (3)
+State		INTEGER NOT NULL,
+##Result solution
+Solution	TEXT NOT NULL,
+##OE Element ID
+IDElement   TEXT NULL DEFAULT NULL,
+##Run oe tools for corrected
+RunTool		TEXT NULL DEFAULT NULL,
+##Json various
+Xtra		TEXT NULL DEFAULT NULL,
+##CONSTRAINT
+CONSTRAINT Const_Serial UNIQUE (Serial)
+);
+##INDEX
+CREATE INDEX IF NOT EXISTS Index_Serial ON results_items (Serial ASC);
+CREATE INDEX IF NOT EXISTS Index_IDResult ON results_items (IDResult ASC);
+#ENDQ
+
+
+#STARTQ (Make DB table version)
+CREATE TABLE IF NOT EXISTS version (version INTEGER NOT NULL);
+#ENDQ
+
+
+#STARTQ (Add or Ignore global pages row)
+INSERT OR IGNORE INTO pages (ID, Serial, Culture, Score) VALUES (0, 'ALL', 'ALL', 0);
+#ENDQ
+
+#STARTQ (Add or Update current DB version)
+DELETE FROM version;
+INSERT INTO version (version) VALUES (1);
+#ENDQ
